@@ -59,6 +59,7 @@ Second, start!
 `.info => Get user info.`
 
 `.text [text] => Type text(like terminal/cmd command-line)`
+
 `.tts => Send a voice. (text-to-speech)`
 
 `.mock => MoCk PlUgiN`
