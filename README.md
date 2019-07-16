@@ -2,7 +2,8 @@
 # userbotPHP
 Basic userbot, Madelineproto based. Available many commands
 
-** Not working with PHP7.3 ** (yet)
+**Not working with PHP7.3** (yet)
+
 **Auto-Plugin Updater/Installer [removed]**
 
 ### How to Install
