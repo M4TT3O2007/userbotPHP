@@ -13,7 +13,7 @@ if(file_exists("LatestV.json")){
 	unlink("LatestV.json");
 	}
   echo 'Downloading MadelineProto...';
-  copy('https://github.com/danog/MadelineProtoPhar/raw/ecca5e890086dfc2ce1171a6547256a1d3094224/madeline.phar', 'madeline.phar');
+  copy('https://phar.madelineproto.xyz/release?v=new', 'madeline.phar');
   echo PHP_EOL.'Done.'.PHP_EOL;
 }
 $wver = json_decode(file_get_contents("settings.json"), true)["version"];
