@@ -2,7 +2,7 @@
 <?php
 define('PID', getmypid());
 chdir(__DIR__);
-if (!file_exists('madeline.phar')) {
+if (!file_exists('madeline.php')) {
 	if(!file_exists("settings.json")){
 	fwrite(fopen("settings.json","a+") ,json_encode(array('version' => "1.0.0")));
 }
@@ -13,12 +13,12 @@ if(file_exists("LatestV.json")){
 	unlink("LatestV.json");
 	}
   echo 'Downloading MadelineProto...';
-  copy('https://phar.madelineproto.xyz/release?v=new', 'madeline.phar');
+  copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
   echo PHP_EOL.'Done.'.PHP_EOL;
 }
 $wver = json_decode(file_get_contents("settings.json"), true)["version"];
 if (!file_exists('sessions')) mkdir('sessions');
-require_once 'madeline.phar';
+require_once 'madeline.php';
 include_once 'settings.php';
 $MadelineProto = NULL;
 $update = NULL;
