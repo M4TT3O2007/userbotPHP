@@ -69,7 +69,6 @@ Last Name: <code>'.$lastname.'</code>
 Username: '.$usernam.'
 Status: <code>'.$status.'</code>
 Bio: <code>'.$about.'</code>
-Data Center: <b>'.$info["full"]["user"]["photo"]["photo_small"]["dc_id"].'</b>
 Bot: '.$bott.'
 
 ',
@@ -84,7 +83,6 @@ Last Name: <code>'.$lastname.'</code>
 Username: '.$usernam.'
 Status: <code>'.$status.'</code>
 Bio: <code>'.$about.'</code>
-Data Center: <b>'.$info["full"]["user"]["photo"]["photo_small"]["dc_id"].'</b>
 Bot: '.$bott.'
 						', ]);
 	} }}
