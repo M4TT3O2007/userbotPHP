@@ -7,5 +7,7 @@ include "plugin/mock.php";
 include 'plugin/translate.php';
 include "plugin/zalgo.php";
 include "plugin/text.php";
+include "plugin/ping.php";
+
 include('plugin/alive.php');
 include('plugin/editprofile.php');
