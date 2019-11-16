@@ -2,6 +2,7 @@
 # userbotPHP
 Basic userbot, Madelineproto based. Available many commands
 
+Warning: Not stable working with PHP 7.3
 ### How to Install
 First, git clone;
 `git clone https://github.com/quiec/userbotPHP`
