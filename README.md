@@ -1,15 +1,3 @@
-New Repo https://github.com/userbot-php/index.php
-
-----
-----
-----
-----
-----
-----
-----
-----
-----
-
 # userbotPHP
 Basic userbot, Madelineproto based. Available many commands
 
